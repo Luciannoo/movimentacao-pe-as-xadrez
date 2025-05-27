@@ -27,4 +27,14 @@ int main(){
         Rainha++;
     } while (Rainha <= 8);
 
+    printf("\n*=+=+=+Movimento do Cavalo+=+=+=*\n\n");
+    //definindo o movimento do Cavalo em duas casas para baixo e uma para esquerda
+    int Cavalo = 1;
+    while (Cavalo--){
+        for(int i = 0;i < 2; i++){
+            printf("cima\n");
+        }
+        printf("Esquerda\n");
+    }
+    
 }
